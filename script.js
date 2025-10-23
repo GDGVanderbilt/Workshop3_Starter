@@ -78,6 +78,8 @@ class Chatbot {
     
     // To do during the workshop: Connect this to the Gemini API and stream responses.
     generateBotResponse(userMessage) {
+        // const apiUrl = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=${apiKey}`
+            
         const responses = [
             "That's an interesting question! I'd be happy to help you with that.",
             "I understand what you're asking. Let me think about this for a moment.",
